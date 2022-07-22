@@ -1,6 +1,4 @@
-import Button from '@components/Button';
 import LogoDark from '@components/icons/LogoDark';
-import Input from '@components/inputs/Input';
 import InputV2 from '@components/inputs/InputV2';
 import FooterLayout from '@layouts/FooterLayout';
 import Link from 'next/link';
@@ -24,16 +22,6 @@ const Register = () => {
               Bienvenido al sistema
             </h1>
             <form className="mt-12">
-              <div className="mt-8 mb-8">
-                <InputV2
-                  label="Nombre"
-                  name="name"
-                  type={'email'}
-                  // error={true}
-                  errorMessage="ads"
-                  register={register}
-                />
-              </div>
               <div className="relative">
                 <input
                   id="email"
